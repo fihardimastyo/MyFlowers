@@ -10,54 +10,53 @@
         android:layout_width="556dp"
         android:layout_height="905dp"
         android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/rec" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="408dp"
+        android:layout_width="419dp"
         android:layout_height="1140dp"
-        android:scaleType="centerInside"
+        android:scaleType="fitEnd"
         app:srcCompat="@drawable/bg2"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="145dp" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="357dp"
-        android:layout_height="466dp"
-        app:srcCompat="@drawable/images"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="223dp"
-        android:layout_height="158dp"
-        android:text="Sukulen "
-        android:textSize="34sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="424dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="371dp"
-        android:layout_height="151dp"
-        android:text="Tumbuhan sukulen, juga dikenal sebagai sukulen, adalah tumbuhan dengan organ yang menebal, berdaging, dan membengkak, biasanya untuk menyimpan air di iklim atau kondisi tanah kering."
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="482dp" />
+        tools:layout_editor_absoluteY="97dp" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/back"
         android:layout_width="68dp"
         android:layout_height="54dp"
+        android:layout_marginTop="16dp"
         android:background="#00000000"
         android:scaleType="fitStart"
-        app:srcCompat="@drawable/back"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="288dp"
+        android:layout_height="320dp"
+        android:layout_marginTop="124dp"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/images" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

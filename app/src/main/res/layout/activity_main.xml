@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="0.852"
         app:srcCompat="@drawable/gp" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/sukulen1"
         android:layout_width="217dp"
         android:layout_height="198dp"
@@ -48,43 +48,29 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/tombol" />
 
-    <ImageButton
-        android:id="@+id/kaktus"
-        android:layout_width="222dp"
-        android:layout_height="192dp"
-        android:layout_marginTop="284dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:background="#00000000"
-        android:scaleType="fitEnd"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/tombol2" />
-
-    <ImageButton
-        android:id="@+id/monstera"
+    <ImageView
+        android:id="@+id/palm1"
         android:layout_width="161dp"
         android:layout_height="167dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="508dp"
-        android:background="#00000000"
-        android:scaleType="fitEnd"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/tombol3" />
-
-    <ImageButton
-        android:id="@+id/palm"
-        android:layout_width="161dp"
-        android:layout_height="167dp"
-        android:layout_marginTop="508dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
         android:background="#00000000"
         android:scaleType="fitEnd"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/tombol4" />
+
+    <ImageButton
+        android:id="@+id/monstera1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="516dp"
+        android:background="#00000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/monstera1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
